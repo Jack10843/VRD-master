@@ -1,0 +1,12 @@
+env: walker2d-medium-v2
+work_dir: train_offline
+lambd: 0.2
+ood: 5.
+
+buffer_size: 4000000
+vae_lr: 0.00005
+DQRA: 0
+smooth_eps: 0.01
+q_smooth_reg: 0.000
+policy_smooth_reg: .0
+latent_dim: 64

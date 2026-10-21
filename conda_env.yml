@@ -1,0 +1,33 @@
+name: orl
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.8.5
+- anaconda
+#- pip install Cython==3.0.0a10
+
+#- pytorch==1.10.0
+#   conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 -c pytorch -c conda-forge
+
+- tqdm==4.61.2
+- numpy
+- pip
+- pip:
+#    python.exe -m pip install --upgrade pip==24.0
+#    pip install setuptools==65.5.0
+#    pip install --user wheel==0.38.0
+#    pip install gym==0.18.3
+
+#  - mujoco-py==2.0.2.13
+#  - mujoco-py==1.50.1.68
+#    git clone https://github.com/openai/mujoco-py.git
+#    cd mujoco-py
+#    pip install -e .
+
+  - numpy==1.20.3
+  - pyyaml==5.4.1
+  - coolname==1.1.0
+  - termcolor==1.1.0
+  - tensorboard==2.7.0
+  - protobuf==3.17.3

@@ -1,0 +1,11 @@
+env: halfcheetah-medium-replay-v2
+work_dir: train_offline
+lambd: 0.05
+ood: 0.6
+
+buffer_size: 2000000
+vae_lr: 0.00005
+DQRA: 1
+smooth_eps: 0.001
+q_smooth_reg: 0.000
+policy_smooth_reg: 0.

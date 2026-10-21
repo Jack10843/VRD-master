@@ -1,0 +1,6 @@
+env: hopper-medium-v2
+work_dir: train_offline
+lambd: 0.06
+
+policy_noise: 0.15
+switch_time: 0.1

@@ -1,0 +1,11 @@
+env: pen-human-v1
+reward_standardize: true
+discount: 0.9
+actor_hidden_dim: 256
+critic_hidden_dim: 256
+actor_lr: 0.000003
+actor_init_w: 0.001
+critic_init_w: 0.003
+work_dir: train_offline
+lambd: 6.0
+

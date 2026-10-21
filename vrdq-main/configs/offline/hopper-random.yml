@@ -1,0 +1,15 @@
+env: hopper-random-v2
+work_dir: train_offline
+lambd: 0.12
+ood: 0.25
+
+critic_hidden_dim: 32
+actor_lr: 0.00001
+buffer_size: 5000000
+vae_lr: 0.000005
+DQRA: 0
+smooth_eps: 0.005
+q_smooth_reg: 0.000
+policy_smooth_reg: 0.00
+
+#norm_constraint: 10

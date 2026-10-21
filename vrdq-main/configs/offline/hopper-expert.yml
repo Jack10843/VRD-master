@@ -1,0 +1,11 @@
+env: hopper-expert-v2
+work_dir: train_offline
+lambd: 1.0
+ood: 0.4
+
+buffer_size: 5000000
+vae_lr: 0.000005
+DQRA: False
+smooth_eps: 0.005
+q_smooth_reg: 0.0001
+policy_smooth_reg: 0.1

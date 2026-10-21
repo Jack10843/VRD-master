@@ -1,0 +1,13 @@
+env: walker2d-random-v2
+work_dir: train_offline
+lambd: 40.
+ood: 0.1
+
+#critic_hidden_dim: 32
+norm_constraint: 2
+buffer_size: 4000000
+vae_lr: 0.00005
+DQRA: 0
+smooth_eps: 0.005
+q_smooth_reg: 0.000
+policy_smooth_reg: 0.0

@@ -1,0 +1,15 @@
+env: halfcheetah-random-v2
+work_dir: train_offline
+lambd: 0.05
+ood: 1.5
+
+buffer_size: 4000000
+vae_lr: 0.0005
+DQRA: 1
+smooth_eps: 0.001
+q_smooth_reg: 0.000
+policy_smooth_reg: 0.00
+#actor_hidden_dim: 64
+#critic_hidden_dim: 64
+#lr: 0.001
+num_layers: 1

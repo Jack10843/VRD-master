@@ -1,0 +1,21 @@
+env: antmaze-large-diverse-v2
+#lr: 0.001
+#actor_lr: 0.0001
+discount: 0.99
+actor_init_w: 0.001
+critic_init_w: 0.003
+antmaze_no_normalize: true
+eval_episodes: 100
+eval_freq: 100000
+work_dir: train_offline
+lambd: 0.05
+
+#warmup_time: 300000
+
+policy_noise: 0.
+flow_steps: 2
+switch_time: 0.4
+
+#actor_hidden_dim: 512
+#critic_hidden_dim: 512
+#policy_freq: 1

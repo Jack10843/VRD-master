@@ -1,0 +1,11 @@
+env: walker2d-medium-replay-v2
+work_dir: train_offline
+lambd: 0.3
+ood: 1.0
+
+buffer_size: 2000000
+vae_lr: 0.00005
+DQRA: 0
+smooth_eps: 0.01
+q_smooth_reg: 0.000
+policy_smooth_reg: .0

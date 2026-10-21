@@ -1,0 +1,19 @@
+env: antmaze-medium-diverse-v2
+lr: 0.001
+actor_lr: 0.0003
+discount: 0.995
+actor_init_w: 0.001
+critic_init_w: 0.003
+antmaze_no_normalize: true
+eval_episodes: 100
+eval_freq: 50000
+work_dir: train_offline
+lambd: 0.06
+ood: 0.5
+
+buffer_size: 5000000
+vae_lr: 0.000001
+DQRA: False
+smooth_eps: 0.001
+q_smooth_reg: 0.0
+policy_smooth_reg: 0.3
